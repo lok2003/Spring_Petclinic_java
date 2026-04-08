@@ -29,8 +29,10 @@
             files: "**/target/surefire-reports/**/*.xml"
             comment_mode: always
         
+            
         - name: Upload build artifacts
           uses: actions/upload-artifact@v4
           with:
             name: java-build-artifacts
             path: target/*.jar
+
