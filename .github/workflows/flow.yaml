@@ -9,8 +9,8 @@
       strategy:
         fail-fast: false
         matrix:
-          java: [8, 11, 17, 21]
-          distributon: [temurin, microsoft, zulu]
+          java: [11, 16, 17, 21]
+          distributon: [temurin, microsoft]
       steps:
         - name: get the code 
           uses: actions/checkout@v4
