@@ -2,7 +2,7 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/spring-projects/spring-petclinic) [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=7517918)
 
-## Understanding the Spring Petclinic application with a few diagrams
+## Understanding the Spring Petclinic application with a few diagrams for practice purpose 
 
 See the presentation here:  
 [Spring Petclinic Sample Application (legacy slides)](https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application?slide=20)
@@ -40,7 +40,7 @@ You can then access the Petclinic at <http://localhost:8080/>.
 You can, of course, run Petclinic in your favorite IDE.
 See below for more details.
 
-## Building a Container
+## Building a Container for spring petclinic
 
 There is no `Dockerfile` in this project. You can build a container image (if you have a docker daemon) using the Spring Boot build plugin:
 
